@@ -1,0 +1,7 @@
+kalo foo itu "Hello world"
+  spill "its hello world"
+udahan
+
+if(foo == "Hello world"){
+  console.log("its hello world")
+}

@@ -1,0 +1,13 @@
+/*  Melakukan grouping, yatiu menggabungkan beberapa elemen tag html  */
+/* Seperti contoh di bawah ini */
+
+/*  */
+p , h2 {
+    color: blue;
+    font-family: 'Cascadia Code';
+}
+
+h3 {
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}

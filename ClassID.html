@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Class ID</title>
+    <style>
+        .tengah {
+            text-align: center;
+        }
+        /* Penggabungan antara tag dan property attribute */
+        p.tengah {
+            color: red;
+        }
+        h1.kiri {
+            color: blue;
+            /* text-align: center; */
+        }
+        h1.tengah {
+            color: black;
+        }
+        #tengah {
+            text-align: center;
+        }
+        #tengah h1 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- class = tampung banyak elemen, bisa dipake berkali2
+         id = sekali pake, contoh untuk menu dan sidebar -->
+         <div class="tengah">
+            <!-- <p> Teks tengah akan berwarna merah </p> Ini tag typo dari Bukunya -->
+            <p class="tengah"> Teks tengah akan berwarna merah</p>
+            <h1 class="tengah">Tag h1 tengah akan berwarna hitam</h1>
+         </div>
+         <h1 class="kiri"> Tag h1 kiri akan berwarna biru</h1>
+         <div id="tengah">
+            <p>Teks tengah id akan berwarna hijau</p>
+            <h1>Tag h1 tengah id akan berwarna hitam</h1>
+         </div>
+         <h1 id="tengah">Tag h1 id tengah akan berwaran biru</h1>
+</body>
+</html>
