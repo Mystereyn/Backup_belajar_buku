@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li , a:active {
+    color: #36073b;
+}
+.wrapper {
+    margin: auto;
+    width: 1000px;
+}
